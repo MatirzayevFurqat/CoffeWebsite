@@ -91,7 +91,6 @@ main .main-content p{
     background-position-y: 0px;
 }
 .our-colection .collection-box div{
-    width: 255px;
     margin: auto;
 }
 
@@ -114,16 +113,13 @@ main .main-content p{
 
 }
 
-.row-colle-box{
-    width: 100%;
-}
 
 /* Section two styling */
 .section-2{
+    margin-top: 100px;
     background: #2C343E;
     border-radius: 15px;
     height: 577px;
-    /* position: absolute; */
     margin-bottom: 325px;
 }
 
@@ -188,18 +184,20 @@ main .main-content p{
 }
 
 
-
 /* section third */
-.works{
-    margin-top: 340px;
-}
+
 
 @media(min-width:576px){
 .works{
-    margin-top: 1100px;
+        margin-top: 300px;
 }
 }
 
+@media(max-width:1200px){
+    .works{
+        margin-top: 1100px;
+    }
+}
 .works .line-img h1{
     font-family: 'Fraunces', serif;
     color: #838383;
@@ -249,7 +247,7 @@ main .main-content p{
 
 .works .btn-content{
     margin-top: 64px;
-    margin-bottom: 220px;
+    margin-bottom: 20px;
 }
 
 footer{
